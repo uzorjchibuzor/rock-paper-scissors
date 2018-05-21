@@ -31,19 +31,16 @@ computerPlay = () => {
 // Player Weapon Selection
 choiceRock.addEventListener('click', () => {
   playerSelection = 'Rock';
-  console.log(playerSelection);
   return game();
 });
 
 choicePaper.addEventListener('click', () => {
   playerSelection = 'Paper';
-  console.log(playerSelection);
   return game();
 });
 
 choiceScissors.addEventListener('click', () => {
   playerSelection = 'Scissors';
-  console.log(playerSelection);
   return game();
 
 });
